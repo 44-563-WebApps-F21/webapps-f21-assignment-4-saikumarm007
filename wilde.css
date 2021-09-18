@@ -32,8 +32,33 @@
   color: orangered;
 }
 .LORDGORING{
-  color: palegreen;
+  color: magenta;
 }
 .SIRROBERTCHILTERN{
   color: blueviolet;
 }
+.characterName {
+  font-size: 1rem;
+  font-style: 🧑;
+}
+
+.description {
+  font-size: .900rem;
+}
+.table,
+td{
+  border: 1px solid black;
+  border-collapse: collapse;  
+  text-align: left;
+  color: red;
+  padding: 5px;
+}
+th{
+  border: 2px solid black;
+  text-align: left;
+  background-color: bisque;
+}
+tr:nth-child(even) {
+  background-color: lightgreen;
+}
+
