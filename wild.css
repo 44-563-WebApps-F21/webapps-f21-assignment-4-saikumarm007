@@ -1,0 +1,24 @@
+.speech {
+    font-family: Calibri;
+    font-size: medium;
+    color: black;
+  }
+  .stage-direction {
+    font-family: Calibri;
+    font-size: medium;
+    color: black;
+  }
+  .name {
+    font-family: Calibri;
+    font-size: medium;
+    color: black;
+  }
+  .directions {
+    color: red;
+  }
+  #a1:hover {
+    background-color: Aquamarine;
+  }
+  .scenedescription {
+    color: green;
+  }
