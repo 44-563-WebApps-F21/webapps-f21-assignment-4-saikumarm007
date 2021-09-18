@@ -61,4 +61,9 @@ th{
 tr:nth-child(even) {
   background-color: lightgreen;
 }
+#a2:hover{
+  text-shadow: 2px 2px black;
+  color: red;
+   text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
 
