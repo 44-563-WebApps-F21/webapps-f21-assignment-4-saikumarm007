@@ -18,6 +18,7 @@
 }
 #a1:hover {
   background-color: Aquamarine;
+  color: brown;
 }
 .scenedescription {
   color: green;
@@ -65,5 +66,38 @@ tr:nth-child(even) {
   text-shadow: 2px 2px black;
   color: red;
    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+ul {
+  list-style-type: disc;
+  color: darksalmon;
+}
+ 
+ul.navbar-horizontal {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul.navbar-horizontal li {
+  float: left;
+  color: #000;
+  background-color: AliceBlue;
+  border: 2px solid black;
+}
+ul.navbar-horizontal a {
+  display: block;
+  padding: 8px;
+}
+ul.navbar-horizontal a:hover {
+  background-color: #555;
+  color: white;
+}
+.firstpage {
+  background-color: gold;
+}
+.secondpage {
+  background-color: silver;
+}
+.left {
+  text-align: left;
 }
 
